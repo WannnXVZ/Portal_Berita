@@ -1,0 +1,67 @@
+# ==========================================
+# Dependencies
+# ==========================================
+node_modules/
+.pnp
+.pnp.js
+
+# ==========================================
+# Build & Output
+# ==========================================
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# ==========================================
+# Environment & Secrets
+# ==========================================
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ==========================================
+# Uploads & Media (Simpan folder, abaikan file upload)
+# ==========================================
+/backend/uploads/*
+!/backend/uploads/.gitkeep
+/uploads/*
+!/uploads/.gitkeep
+
+# ==========================================
+# Logs & Debugging
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+seed_error.log
+
+# ==========================================
+# OS & Editor
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Catatan Analisis, Perencanaan & Task Internal
+# ==========================================
+analisis_website.md
+backend_implementation_plan.md
+backend_task.md
+frontend_task_list.md
+implementation_plan.md
+rincian_perubahan_dan_panduan.md
+system_analysis_report.md
+tanah-merah-news-prd.html
+task.md
+tanah_merah_news_postman_collection.json
+
